@@ -1,0 +1,91 @@
+.connectModal{
+    background: #1B2332;
+    height: 70vh;
+    width: 60vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* position: fixed; */
+    /* position: fixed; /* or absolute */
+
+    
+    
+}
+.pop{
+    background: #1B2332;
+    height: 75vh;
+    width: 60vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    z-index: 99 ;
+    margin-top: 7%;
+    position: fixed; /* or absolute */
+    top: 1%;
+    left: 30%;
+    
+}
+.paper{
+    height: 60vh;
+    width: 50vh;
+    box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    background:   #1B2332;
+    color: #fff;
+    /* position: relative; */
+}
+.btnn{
+    border: none;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.align-wallet{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.metamask{
+ display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 16px;
+width: 360px;
+height: 72px;
+background: rgba(57, 70, 98, 0.08);
+border-radius: 10px;
+flex: none;
+order: 0;
+gap: 166px;
+flex-grow: 0;
+cursor: pointer;
+}
+.metamask:hover, :focus{
+    background: rgba(191, 207, 232, 0.08);
+}
+
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+
+btnn
+pop

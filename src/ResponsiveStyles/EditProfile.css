@@ -1,0 +1,129 @@
+.board{
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: absolute;
+width: 300px;
+height: 400px;
+left: -20px;
+top: 427px;
+background: #1B2332;
+border-radius: 10px;
+}
+
+.pop-1{
+    background: #1B2332;
+    height: 75vh;
+    width: 60vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    z-index: 99 ;
+    top: 1%;
+    left: 30%;
+    
+}
+
+    .alignbox{
+        display: flex;
+        /* flex-direction: column; */
+        /* justify-content: flex-start; */
+        padding:    10px;
+    }
+    .alignbox-1{
+        display: flex;
+        /* flex-direction: column; */
+        /* justify-content: flex-end; */
+        padding:    15px;
+    }
+    .walletalign{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .tablealign{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: flex-start;
+        position:absolute;
+        top: 100px;
+    }
+    .tableContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        position:absolute;
+    }
+    .tablealign-1{
+        justify-content: flex-start;
+        position:absolute;
+        top: 125px;
+    }
+    .line-5{
+        width: 300px;
+        height: 20px;
+        border-bottom: 1px solid #4E5F83;;
+        justify-content: space-between;
+      }
+
+      .line-6{
+        width: 300px;
+        height: 0px;
+        border-bottom: 1px solid #4E5F83;;
+        justify-content: space-between;
+      }
+      .tablealign-2{
+        justify-content: flex-start;
+        position:absolute;
+        top: 165px;
+      }
+      .tablealign-3{
+        justify-content: flex-start;
+        position:absolute;
+        top: 60px;
+      }
+      .tablealign-4{
+        justify-content: flex-start;
+        position:absolute;
+        top: 105px;
+      }
+
+      .tablealign-5{
+        justify-content: flex-start;
+        position:absolute;
+        top: 55px;
+      }
+
+      .logout{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 10px 112px;
+        gap: 10px;
+        width: 276px;
+        height: 40px;
+        border: 1px solid #4E5F83;
+        border-radius: 5px;
+        background: #1B2332;
+
+      }
+      .tablealign-7{
+        justify-content: flex-start;
+        position:absolute;
+        top: 55px;
+      }
+
+      .Dotbtn{
+        border: none;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        background: transparent;
+        text-align: center;
+        cursor: pointer;
+        color: #fff;
+    }

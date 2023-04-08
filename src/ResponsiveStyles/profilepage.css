@@ -1,0 +1,363 @@
+.first{
+    background: #0F1725;
+    width: 5.55%;
+    left: 0;
+    height: 100%;
+    justify-content: space-between;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.profilesection{
+display: flex;
+ 
+
+}
+.line5{
+    width: 180px;
+    height: 20px;
+    border-bottom: 1px solid #4E5F83;;
+  }
+.dash{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 1px;
+position: absolute;
+width: 194px;
+height: 280px;
+left: 115px;
+top: 51px;
+/* background: #000000; */
+}
+
+.tablealign4{
+    position:absolute;
+    top: 30px;
+    background: #242E42;
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px;
+gap: 10px;
+
+width: 194px;
+height: 38px;
+background: #242E42;
+border-radius: 5px;
+flex: none;
+order: 1;
+flex-grow: 0;
+  }
+
+  .tablealign5{
+    position:absolute;
+    top: 70px;
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px;
+gap: 10px;
+
+  }
+
+  .tablealign1{
+    justify-content: flex-start;
+    position:absolute;
+    top: 45px;
+}
+.t{
+    display: flex;
+   margin-top: 10px;
+   padding-left: 20px;
+}
+.tablealign3{
+    justify-content: flex-start;
+    position:absolute;
+    top: 80px;
+  }
+
+  .form{
+    /* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+gap: 24px;
+ width: 660px;
+height: 1110px; 
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px 20px 32px;
+gap: 24px;
+position: absolute;
+/* width: 400px;
+height: 1190px; */
+left: 399px;
+top: 100px;
+
+background: #1B2332;
+border-radius: 10px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+  }
+
+  .avatar3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: -50px;
+    border: 2px solid #000;
+    border-radius: 100px;
+    margin-left: 20px;
+
+}
+
+.inputalign{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.inoputtrackk{
+
+box-sizing: border-box;
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 8px 10px 10px;
+gap: 10px;
+width: 612px;
+height: 40px;
+background: url(/src/assets/social-website.png) no-repeat scroll 7px 7px;
+padding-left:30px;
+
+border: 1px solid rgba(78, 95, 131, 0.7);
+border-radius: 4px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.inoputtrack{
+
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 8px 10px 10px;
+    gap: 10px;
+    width: 612px;
+    height: 40px;
+    
+    /* background: url(/src/assets/social-website.png) no-repeat scroll 7px 7px;
+    padding-left:30px; */
+    background: #242E42;
+    
+    border: 1px solid rgba(78, 95, 131, 0.7);
+    border-radius: 4px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    }
+.inoputtrack1{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px 8px 108px 10px;
+gap: 10px;
+
+width: 612px;
+height: 138px;
+color: #fff;
+/* Input background color */
+
+background: #242E42;
+/* Stroke border/70 */
+
+border: 1px solid rgba(78, 95, 131, 0.7);
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+outline: none;
+}
+.inoputtrackk1{
+    box-sizing: border-box;
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 8px 10px 10px;
+gap: 10px;
+width: 612px;
+height: 40px;
+background: url(/src/assets/mdi_twitter1.png) no-repeat scroll 7px 7px;
+padding-left:30px;
+
+border: 1px solid rgba(78, 95, 131, 0.7);
+border-radius: 4px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.inoputtrackk2{
+    box-sizing: border-box;
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 8px 10px 10px;
+gap: 10px;
+width: 612px;
+height: 40px;
+background: url(/src/assets/bxl_telegram\ \(1\).png) no-repeat scroll 7px 7px;
+padding-left:30px;
+
+border: 1px solid rgba(78, 95, 131, 0.7);
+border-radius: 4px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.inoputtrackk3{
+    box-sizing: border-box;
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 8px 10px 10px;
+gap: 10px;
+width: 612px;
+height: 40px;
+background: url(/src/assets/ic_baseline-discord1.png) no-repeat scroll 7px 7px;
+padding-left:30px;
+
+border: 1px solid rgba(78, 95, 131, 0.7);
+border-radius: 4px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.inoputtrackk4{
+    box-sizing: border-box;
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 8px 10px 10px;
+gap: 10px;
+width: 612px;
+height: 40px;
+background: url(/src/assets/mdi_linkedin1.png) no-repeat scroll 7px 7px;
+padding-left:30px;
+
+border: 1px solid rgba(78, 95, 131, 0.7);
+border-radius: 4px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.inoputtrackk5{
+    box-sizing: border-box;
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 8px 10px 10px;
+gap: 10px;
+width: 612px;
+height: 40px;
+background: url(/src/assets/mdi_youtube1.png) no-repeat scroll 7px 7px;
+padding-left:30px;
+
+border: 1px solid rgba(78, 95, 131, 0.7);
+border-radius: 4px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.inoputtrackk6{
+    box-sizing: border-box;
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 8px 10px 10px;
+gap: 10px;
+width: 612px;
+height: 40px;
+background: url(/src/assets/mdi_instagram1.png) no-repeat scroll 7px 7px;
+padding-left:30px;
+
+border: 1px solid rgba(78, 95, 131, 0.7);
+border-radius: 4px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.edit{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 24px;
+gap: 10px;
+
+width: 130px;
+height: 42px;
+border: none;
+
+background: #00CE6B;
+border-radius: 5px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.editbtn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.error{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 16px;
+    
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 169px;
+
+    background: #242E42;
+    
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.08), 0px 0px 48px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+}
